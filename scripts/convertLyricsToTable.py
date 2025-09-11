@@ -48,6 +48,10 @@ while i < len(lines):
     elif lines[i].startswith("("):
         html_str += f"<tr><td colspan='2' style='text-align: end'>{lines[i]}</td></tr>"
         i += 1
+    # for ordinary lines
+    else:
+        html_str += f"<tr><td colspan='2'>{lines[i]}<br>{lines[i + 1]}</td></tr>"
+        i += 2
 # while loop end
 
 # add the final closing tags (hack, i know)

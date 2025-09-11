@@ -1,0 +1,27 @@
+<div class="post-line">
+
+    {{ $tagsPage := strings.Contains .RelPermalink "tags"}}
+
+    {{ $dateFormat := .Site.Params.listDateFormat | default "2 Jan 2006" }}
+
+    {{ if .Parent.Param "showListDate" | default true }}
+        <!-- <p class="line-date">{{ .Date | time.Format $dateFormat }} </p> -->
+        {{ if $tagsPage }}
+            <p class="line-date">🗒</p>
+        {{ else }}
+            <p class="line-date">🎜</p>
+        {{ end }}
+    {{ end }}
+
+    <div>
+        <p class="line-title">
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+            </a>
+        </p>
+
+        {{ if .Site.Params.listSummaries }}
+        <p class="line-summary"> {{ .Summary }} </p>
+        {{ end }}
+    </div>
+</div>

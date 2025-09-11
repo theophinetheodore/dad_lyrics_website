@@ -7,7 +7,7 @@
     {{ if .Parent.Param "showListDate" | default true }}
         <!-- <p class="line-date">{{ .Date | time.Format $dateFormat }} </p> -->
         {{ if $tagsPage }}
-            <p class="line-date">🗒</p>
+            <p class="line-date">•</p>
         {{ else }}
             <p class="line-date">🎜</p>
         {{ end }}

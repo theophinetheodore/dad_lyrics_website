@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "ഗാനങ്ങൾ"
 theme = 'typo'
+publishDir = "docs"
 
 [taxonomies]
 tag = 'tags'
@@ -14,27 +15,16 @@ colorPalette = 'base16-default'
 hideHeader = false
 showFooter = false
 
-# homeIntroTitle = 'Hi!'
-# homeIntroContent = """
-# I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-# I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
-# """
-
-# Collection to display on home
-# homeCollectionTitle = 'Songs'
-# homeCollection = 'songs'
-
 # Lists parameters
 paginationSize = 100
 listSummaries = false
 listDateFormat = ''
 
-# # Breadcrumbs
+# Breadcrumbs
 [params.breadcrumbs]
 enabled = false
 showCurrentPage = true
 home = "Home"
-
 
 # Main menu pages
 [[params.menu]]
@@ -49,7 +39,6 @@ url = "/tags"
 name = "എന്നെപ്പറ്റി"
 url = "/about"
 
-# Syntax highlight on code blocks
 [markup]
 [markup.highlight]
 style = 'algol'
@@ -57,4 +46,3 @@ style = 'algol'
     [markup.goldmark.renderer]
           hardWraps = true
           unsafe = true
-

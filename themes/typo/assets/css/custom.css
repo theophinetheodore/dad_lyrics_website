@@ -1,1 +1,12 @@
 /* Place custom css here */
+
+button#tableview {
+  background: linear-gradient(to bottom, var(--code-background), var(--code-border));
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border: 0.1rem solid var(--code-border);
+}
+
+.hidden {
+  display: none;
+}

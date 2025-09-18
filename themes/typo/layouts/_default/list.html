@@ -7,11 +7,9 @@
     <!-- <h1>{{ .Title }}</h1> -->
     {{ .Content }}
 
-    <!-- {{ $tagsPage := eq .Title "Tags"}} -->
-
     {{ $paginationSize := 1}}
     {{ if (gt .Site.Params.paginationSize 0) }}
-    {{ $paginationSize = .Site.Params.paginationSize }}
+        {{ $paginationSize = .Site.Params.paginationSize }}
     {{ end }}
 
     {{ $paginator := .Paginate (.Pages) $paginationSize }}

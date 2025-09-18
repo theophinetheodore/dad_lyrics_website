@@ -70,6 +70,14 @@
     
     {{- /* Page content */}}
 
+    {{ if .Param "scale" }}
+    <blockquote style="border: 1px solid; border-radius: 0.5rem;">
+      <p>Scale: {{ .Params.scale }}</p>
+      <p>Time Signature: {{ .Params.time_signature }}</p>
+      <p>Tempo: {{ .Params.tempo }}</p>
+    </blockquote>
+    {{ end }}
+
     {{ if .Param "notation"}}
       <button id="tableview">Toggle View</button>
 

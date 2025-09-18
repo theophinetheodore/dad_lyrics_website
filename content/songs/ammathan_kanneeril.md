@@ -1,12 +1,12 @@
 ---
-title: "അമ്മതൻ കണ്ണീരിൽ ചാലിച്ചെഴുതിയ"
+title: "അമ്മതൻ കണ്ണീരിൽ ചാലിച്ചെഴുതിയ (വി. അഗസ്റ്റിൻ)"
 tags:
     - "വിശുദ്ധരുടെ ഗാനങ്ങൾ"
 params:
     notation: true
-    Scale: D
-    Time Signature: 3/4
-    Tempo: 135
+    scale: D
+    time_signature: 3/4
+    tempo: 135
 ---
 
 ~ Start 11 Bar ~

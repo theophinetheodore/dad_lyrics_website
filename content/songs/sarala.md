@@ -5,7 +5,7 @@ tags:
 params:
     notation: true
     scale: G
-    time Signature: 6/8
+    time_signature: 6/8
     tempo: 93
 
 ---

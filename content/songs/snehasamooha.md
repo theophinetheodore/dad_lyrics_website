@@ -2,12 +2,10 @@
 title: "സ്‍നേഹസമൂഹ യാഗവേദിയിൽ"
 tags:
     - "പ്രവേശനഗാനങ്ങൾ"
----
-
-Scale: D
-Time Signature: 2/4
-Tempo: 93
-
+params:
+    scale: D
+    time_signature: 2/4
+    tempo: 93
 ---
 
 സ്‍നേഹസമൂഹ യാഗവേദിയിൽ

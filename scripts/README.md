@@ -1,5 +1,7 @@
 # scripts
 
+NB: No longer used. Replaced by a JavaScript implementation found at `themes/typo/layouts/_default/single.html`.
+
 ## convertLyricsToTable.py
 
 ### usage

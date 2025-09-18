@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = "ഗാനങ്ങൾ"
+title = "ബാബുവിന്റെ ഗാനശേഖരം."
 theme = 'typo'
 publishDir = "docs"
 
@@ -28,12 +28,8 @@ home = "Home"
 
 # Main menu pages
 [[params.menu]]
-name = "പ്രാരംഭതാൾ"
+name = "ഗാനങ്ങൾ"
 url = "/"
-
-[[params.menu]]
-name = "വിഭാഗങ്ങൾ"
-url = "/tags"
 
 [[params.menu]]
 name = "എന്നെപ്പറ്റി"

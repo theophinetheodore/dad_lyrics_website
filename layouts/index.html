@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="list-container">
+  {{ $songs := where .Site.RegularPages "Section" "songs" }}
+  <p>ഇപ്പോ എല്ലാംകൂടി <u>{{ len $songs }}</u> പാട്ട് ആയി കേട്ടോ! ☺️ 🎶 🎤 🎹</p>
+
+  <hr>
+
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <details open>
+      <summary style="cursor: pointer;">
+        <span style="font-size: 1.5rem; font-weight: bold;">{{ $name }} ({{ len $taxonomy }})</span>
+      </summary>
+
+      <ul style="margin: 1rem 0;">
+        {{ range $taxonomy }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end}}
+      </ul>
+    </details>
+    {{ end }}
+</div>
+{{ end }}

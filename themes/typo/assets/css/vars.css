@@ -63,6 +63,19 @@
   --table-cell-padding: .5rem;
   --table-margin-top: 2rem;
   --table-margin-bottom: 2rem;
+
+  /* pagefind related stuff */
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: #ffffff !important;
+  --pagefind-ui-text: #ffffff !important;
+  --pagefind-ui-background: #393939 !important;
+  --pagefind-ui-border: #393939 !important;
+  --pagefind-ui-tag: #eeeeee;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: "Malini";
 }
 
 @media screen and (max-width: 1024px) {

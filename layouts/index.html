@@ -2,9 +2,26 @@
 
 <div class="list-container">
   {{ $songs := where .Site.RegularPages "Section" "songs" }}
-  <p>ഇപ്പോ എല്ലാംകൂടി <b>{{ len $songs }}</b> പാട്ട് ആയി കേട്ടോ! ☺️ 🎶 🎤 🎹</p>
+  <p style="margin-bottom: 2rem;">ഇപ്പോ എല്ലാംകൂടി <b>{{ len $songs }}</b> പാട്ട് ആയി കേട്ടോ! ☺️ 🎶 🎤 🎹</p>
 
   <hr>
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <div id="search"></div>
+  <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+          new PagefindUI({
+          element: "#search",
+          showSubResults: false,
+          translations: {
+            placeholder: "ഗാനങ്ങൾ തിരയുക",
+            zero_results: '"[SEARCH_TERM]" കണ്ടെത്താനായില്ല.'
+        }
+        });
+      });
+  </script>
+
 
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
       <h3>{{ $name }} ({{ len $taxonomy }})</h3>

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e4c69f5564137f6a",
+        "id": "868734758f3ea917",
         "type": "tabs",
         "children": [
           {
-            "id": "d6eec83a1c84b065",
+            "id": "0233e3e89d8e0a7a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "full",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,14 +163,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "d6eec83a1c84b065",
+  "active": "0233e3e89d8e0a7a",
   "lastOpenFiles": [
+    "themes/typo/wiki/features/controlling-images.md",
+    "content/songs/oh_jeevante_uravaye.md",
+    "content/songs/naada_samarppikkunnu.md",
+    "content/songs/kanivinte_niravaarnoramme.md",
+    "content/songs/dhanyamaam_ee_vediyil.md",
+    "content/songs/ammathan_kanneeril.md",
+    "content/songs/amma_manassil.md",
+    "content/songs/aalayamaninaadam_kettu.md",
+    "content/songs/aadyathe_sakraari.md",
+    "themes/typo/CODE_OF_CONDUCT.md",
     "content/songs/thirumumbil_anayunnu_njangal.md",
     "content/songs/en_jeevitha_thaalam.md",
     "content/songs/baliyarppikkaan_varuvin.md",
     "themes/typo/layouts/_default/single.htmlDbSC0U.bck",
-    "content/songs/naada_samarppikkunnu.md",
-    "content/songs/dhanyamaam_ee_vediyil.md",
     "docs/index.xml",
     "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1/index.html",
     "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1",
@@ -183,12 +192,9 @@
     "docs/favicon-32x32.png",
     "docs/apple-touch-icon.png",
     "docs/favicon-16x16.png",
-    "content/songs/aalayamaninaadam_kettu.md",
     "content/songs/thoomanjupole.md",
     "content/songs/alivulla_daivame.md",
     "content/songs/akhila.md",
-    "content/songs/oh_jeevante_uravaye.md",
-    "content/songs/aadyathe_sakraari.md",
     "content/songs/snehasamooha.md",
     "content/songs/pathiye_pathiye.md",
     "content/songs/pathiye_pathiye 1.md",
@@ -198,7 +204,6 @@
     "content/songs/anayuvin_thirusannidhiyil.md",
     "content/songs/raajaraajyam_manujanu_paaaril.md",
     "content/songs/ananthapurikkabhimaanamaayi.md",
-    "content/songs/anayuvin.md",
-    "content/songs/raajakkanmaarude_raajaave.md"
+    "content/songs/anayuvin.md"
   ]
 }

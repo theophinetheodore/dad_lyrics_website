@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e9364ca9de8abe0a",
+        "id": "e4c69f5564137f6a",
         "type": "tabs",
         "children": [
           {
-            "id": "8f8ede4e85bd8c7b",
+            "id": "d6eec83a1c84b065",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/songs/dhanyamaam_ee_vediyil.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "dhanyamaam_ee_vediyil"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "M+F",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,8 +162,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "8f8ede4e85bd8c7b",
+  "active": "d6eec83a1c84b065",
   "lastOpenFiles": [
+    "content/songs/thirumumbil_anayunnu_njangal.md",
+    "content/songs/en_jeevitha_thaalam.md",
+    "content/songs/baliyarppikkaan_varuvin.md",
+    "themes/typo/layouts/_default/single.htmlDbSC0U.bck",
+    "content/songs/naada_samarppikkunnu.md",
+    "content/songs/dhanyamaam_ee_vediyil.md",
     "docs/index.xml",
     "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1/index.html",
     "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1",
@@ -178,13 +179,10 @@
     "docs/tags/page/1",
     "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ",
     "docs/tags/page",
-    "docs/tags/index.html",
-    "docs/tags",
     "docs/android-chrome-192x192.png",
     "docs/favicon-32x32.png",
     "docs/apple-touch-icon.png",
     "docs/favicon-16x16.png",
-    "content/songs/naada_samarppikkunnu.md",
     "content/songs/aalayamaninaadam_kettu.md",
     "content/songs/thoomanjupole.md",
     "content/songs/alivulla_daivame.md",

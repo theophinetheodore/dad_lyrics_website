@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "679fcb3079969dd0",
+        "id": "e9364ca9de8abe0a",
         "type": "tabs",
         "children": [
           {
-            "id": "fbce0ef81594cd69",
+            "id": "8f8ede4e85bd8c7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/songs/dhanyamaam_ee_vediyil.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "dhanyamaam_ee_vediyil"
             }
           }
         ]
@@ -75,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d2e6cbaf4da50d50",
@@ -164,16 +167,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "fbce0ef81594cd69",
+  "active": "8f8ede4e85bd8c7b",
   "lastOpenFiles": [
     "docs/index.xml",
-    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/page/1/index.html",
+    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1/index.html",
+    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1",
     "docs/tags/page/1/index.html",
-    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/page/1",
-    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/page",
+    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page",
+    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/index.html",
     "docs/tags/page/1",
-    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/index.html",
-    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ",
+    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ",
     "docs/tags/page",
     "docs/tags/index.html",
     "docs/tags",
@@ -181,9 +184,13 @@
     "docs/favicon-32x32.png",
     "docs/apple-touch-icon.png",
     "docs/favicon-16x16.png",
+    "content/songs/naada_samarppikkunnu.md",
+    "content/songs/aalayamaninaadam_kettu.md",
+    "content/songs/thoomanjupole.md",
+    "content/songs/alivulla_daivame.md",
+    "content/songs/akhila.md",
     "content/songs/oh_jeevante_uravaye.md",
     "content/songs/aadyathe_sakraari.md",
-    "content/songs/thoomanjupole.md",
     "content/songs/snehasamooha.md",
     "content/songs/pathiye_pathiye.md",
     "content/songs/pathiye_pathiye 1.md",

@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "0e6ce52370d14025",
+    "type": "split",
+    "children": [
+      {
+        "id": "679fcb3079969dd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbce0ef81594cd69",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aca99ad0663476d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c9bd160c3868fbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "690a5556412ca53e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "567e79ba77ca48e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "M+F",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a77b3a96b2cac38c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2e6cbaf4da50d50",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9e49e4a5e48d13f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb95795107448dd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "0a4fef6ccdc5031c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ec31a9603ec21f0c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "42c0fcc3476064a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fbce0ef81594cd69",
+  "lastOpenFiles": [
+    "docs/index.xml",
+    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/page/1/index.html",
+    "docs/tags/page/1/index.html",
+    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/page/1",
+    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/page",
+    "docs/tags/page/1",
+    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ/index.html",
+    "docs/tags/ക്രിസ്തുരാജ-ഗീതങ്ങൾ",
+    "docs/tags/page",
+    "docs/tags/index.html",
+    "docs/tags",
+    "docs/android-chrome-192x192.png",
+    "docs/favicon-32x32.png",
+    "docs/apple-touch-icon.png",
+    "docs/favicon-16x16.png",
+    "content/songs/oh_jeevante_uravaye.md",
+    "content/songs/aadyathe_sakraari.md",
+    "content/songs/thoomanjupole.md",
+    "content/songs/snehasamooha.md",
+    "content/songs/pathiye_pathiye.md",
+    "content/songs/pathiye_pathiye 1.md",
+    "content/songs/raajaa_raajaa_kristhuraajaa.md",
+    "content/songs/sindhu_dayaasindhu.md",
+    "content/songs/ananthasneha_saamraajyam.md",
+    "content/songs/anayuvin_thirusannidhiyil.md",
+    "content/songs/raajaraajyam_manujanu_paaaril.md",
+    "content/songs/ananthapurikkabhimaanamaayi.md",
+    "content/songs/anayuvin.md",
+    "content/songs/raajakkanmaarude_raajaave.md"
+  ]
+}

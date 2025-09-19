@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "868734758f3ea917",
+        "id": "74bfd72db723bf26",
         "type": "tabs",
         "children": [
           {
-            "id": "0233e3e89d8e0a7a",
+            "id": "ee6d83211bab0906",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,8 +162,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "0233e3e89d8e0a7a",
+  "active": "ee6d83211bab0906",
   "lastOpenFiles": [
+    "content/songs/nin_divya_paathanthikathil.md",
+    "content/songs/daivaraajyam_samaagathamaayi_orunguvin.md",
+    "docs/songs/daivaraajyam_samaagathamaayi_orunguvin/index.html",
+    "docs/songs/daivaraajyam_samaagathamaayi_orunguvin",
+    "docs/songs/kopamaarnnoru_nayanamode-1/index.html",
+    "docs/songs/kopamaarnnoru_nayanamode-1",
+    "content/songs/kopamaarnnoru_nayanamode.md",
+    "docs/songs/kopamaarnnoru_nayanamode/index.html",
+    "docs/songs/kopamaarnnoru_nayanamode",
+    "docs/songs/karuna_niranja_pithaave_nee-1/index.html",
+    "docs/songs/karuna_niranja_pithaave_nee-1",
+    "content/songs/karuna_niranja_pithaave_nee.md",
+    "docs/songs/karuna_niranja_pithaave_nee/index.html",
+    "docs/songs/karuna_niranja_pithaave_nee",
+    "content/songs/en_paapavazhiyorth_njaninn.md",
+    "content/songs/ennamerum_paapathaal.md",
+    "content/songs/aadhiyilaakaruthe.md",
+    "content/songs/anantha_snehathin.md",
+    "content/songs/maanusha_nee_lokamakhilam.md",
     "themes/typo/wiki/features/controlling-images.md",
     "content/songs/oh_jeevante_uravaye.md",
     "content/songs/naada_samarppikkunnu.md",
@@ -178,32 +196,12 @@
     "content/songs/thirumumbil_anayunnu_njangal.md",
     "content/songs/en_jeevitha_thaalam.md",
     "content/songs/baliyarppikkaan_varuvin.md",
-    "themes/typo/layouts/_default/single.htmlDbSC0U.bck",
-    "docs/index.xml",
-    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1/index.html",
-    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page/1",
-    "docs/tags/page/1/index.html",
-    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/page",
-    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ/index.html",
-    "docs/tags/page/1",
-    "docs/tags/കാഴ്ചവയ്പ്പ്-ഗാനങ്ങൾ",
-    "docs/tags/page",
     "docs/android-chrome-192x192.png",
     "docs/favicon-32x32.png",
     "docs/apple-touch-icon.png",
     "docs/favicon-16x16.png",
     "content/songs/thoomanjupole.md",
     "content/songs/alivulla_daivame.md",
-    "content/songs/akhila.md",
-    "content/songs/snehasamooha.md",
-    "content/songs/pathiye_pathiye.md",
-    "content/songs/pathiye_pathiye 1.md",
-    "content/songs/raajaa_raajaa_kristhuraajaa.md",
-    "content/songs/sindhu_dayaasindhu.md",
-    "content/songs/ananthasneha_saamraajyam.md",
-    "content/songs/anayuvin_thirusannidhiyil.md",
-    "content/songs/raajaraajyam_manujanu_paaaril.md",
-    "content/songs/ananthapurikkabhimaanamaayi.md",
-    "content/songs/anayuvin.md"
+    "content/songs/akhila.md"
   ]
 }

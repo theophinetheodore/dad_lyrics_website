@@ -3,6 +3,7 @@ languageCode = 'ml-in'
 title = "ബാബുവിന്റെ ഗാനശേഖരം."
 theme = 'typo'
 publishDir = "docs"
+disableKinds = ["RSS"]
 
 [taxonomies]
 tag = 'tags'

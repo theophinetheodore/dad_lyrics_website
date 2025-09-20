@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74bfd72db723bf26",
+        "id": "ff4b3d59d1f52583",
         "type": "tabs",
         "children": [
           {
-            "id": "ee6d83211bab0906",
+            "id": "b79f760a9c4fe0a9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,8 +162,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "ee6d83211bab0906",
+  "active": "b79f760a9c4fe0a9",
   "lastOpenFiles": [
+    "content/songs/jerusalemin_naayakane_vaazhthuvin.md",
+    "content/songs/janathakale_sthuthi_paaduvin.md",
+    "content/songs/kalvarithannile_yaagathin.md",
+    "content/songs/kalvari_giriyile_kaanjana_deepame.md",
+    "content/songs/kaarunya_veena_kaiyilenthi.md",
+    "content/songs/oru_mezhuthiriyil_ninnaayiram.md",
+    "content/songs/oru_nimisham_manamuyarthaam.md",
+    "content/songs/aayiram_suryagolangal.md",
+    "content/songs/aakashadhoothar.md",
+    "content/songs/aadyathe_sakraari.md",
     "content/songs/nin_divya_paathanthikathil.md",
     "content/songs/daivaraajyam_samaagathamaayi_orunguvin.md",
     "docs/songs/daivaraajyam_samaagathamaayi_orunguvin/index.html",
@@ -190,18 +200,9 @@
     "content/songs/dhanyamaam_ee_vediyil.md",
     "content/songs/ammathan_kanneeril.md",
     "content/songs/amma_manassil.md",
-    "content/songs/aalayamaninaadam_kettu.md",
-    "content/songs/aadyathe_sakraari.md",
-    "themes/typo/CODE_OF_CONDUCT.md",
-    "content/songs/thirumumbil_anayunnu_njangal.md",
-    "content/songs/en_jeevitha_thaalam.md",
-    "content/songs/baliyarppikkaan_varuvin.md",
     "docs/android-chrome-192x192.png",
     "docs/favicon-32x32.png",
     "docs/apple-touch-icon.png",
-    "docs/favicon-16x16.png",
-    "content/songs/thoomanjupole.md",
-    "content/songs/alivulla_daivame.md",
-    "content/songs/akhila.md"
+    "docs/favicon-16x16.png"
   ]
 }

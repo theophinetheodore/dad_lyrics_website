@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff4b3d59d1f52583",
+        "id": "8073ea267c20ad9e",
         "type": "tabs",
         "children": [
           {
-            "id": "b79f760a9c4fe0a9",
+            "id": "ca8b6d8304beda61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/songs/althara_orungi_akathaarorukki.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "althara_orungi_akathaarorukki"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "full",
+                "query": "notation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,8 +167,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "b79f760a9c4fe0a9",
+  "active": "ca8b6d8304beda61",
   "lastOpenFiles": [
+    "docs/pagefind/fragment/ml-in_e8f2c5f.pf_fragment",
+    "docs/pagefind/fragment/ml-in_c12b6dd.pf_fragment",
+    "docs/pagefind/fragment/ml-in_a485395.pf_fragment",
+    "docs/pagefind/fragment/ml-in_9174cd7.pf_fragment",
+    "docs/pagefind/fragment/ml-in_84a7b41.pf_fragment",
+    "docs/pagefind/fragment/ml-in_77cc6df.pf_fragment",
+    "docs/pagefind/fragment/ml-in_733bf3c.pf_fragment",
+    "docs/pagefind/fragment/ml-in_6bfe96c.pf_fragment",
+    "docs/pagefind/fragment/ml-in_4b9865b.pf_fragment",
+    "docs/pagefind/fragment",
+    "docs/pagefind",
+    "docs/android-chrome-192x192.png",
+    "docs/favicon-32x32.png",
+    "docs/apple-touch-icon.png",
+    "docs/favicon-16x16.png",
+    "content/songs/aadyathe_sakraari.md",
+    "content/songs/althara_orungi_akathaarorukki.md",
+    "content/songs/akhila.md",
+    "content/songs/ambike_naadhe_kanyake.md",
+    "content/songs/amma_manassil.md",
+    "content/songs/amme_sneha_naadhe.md",
+    "content/songs/anantha_snehathin.md",
+    "content/songs/appamaayi_innee_altharayil.md",
     "content/songs/jerusalemin_naayakane_vaazhthuvin.md",
     "content/songs/janathakale_sthuthi_paaduvin.md",
     "content/songs/kalvarithannile_yaagathin.md",
@@ -173,36 +201,13 @@
     "content/songs/oru_nimisham_manamuyarthaam.md",
     "content/songs/aayiram_suryagolangal.md",
     "content/songs/aakashadhoothar.md",
-    "content/songs/aadyathe_sakraari.md",
     "content/songs/nin_divya_paathanthikathil.md",
     "content/songs/daivaraajyam_samaagathamaayi_orunguvin.md",
-    "docs/songs/daivaraajyam_samaagathamaayi_orunguvin/index.html",
-    "docs/songs/daivaraajyam_samaagathamaayi_orunguvin",
-    "docs/songs/kopamaarnnoru_nayanamode-1/index.html",
-    "docs/songs/kopamaarnnoru_nayanamode-1",
     "content/songs/kopamaarnnoru_nayanamode.md",
-    "docs/songs/kopamaarnnoru_nayanamode/index.html",
-    "docs/songs/kopamaarnnoru_nayanamode",
-    "docs/songs/karuna_niranja_pithaave_nee-1/index.html",
-    "docs/songs/karuna_niranja_pithaave_nee-1",
     "content/songs/karuna_niranja_pithaave_nee.md",
-    "docs/songs/karuna_niranja_pithaave_nee/index.html",
-    "docs/songs/karuna_niranja_pithaave_nee",
     "content/songs/en_paapavazhiyorth_njaninn.md",
     "content/songs/ennamerum_paapathaal.md",
     "content/songs/aadhiyilaakaruthe.md",
-    "content/songs/anantha_snehathin.md",
-    "content/songs/maanusha_nee_lokamakhilam.md",
-    "themes/typo/wiki/features/controlling-images.md",
-    "content/songs/oh_jeevante_uravaye.md",
-    "content/songs/naada_samarppikkunnu.md",
-    "content/songs/kanivinte_niravaarnoramme.md",
-    "content/songs/dhanyamaam_ee_vediyil.md",
-    "content/songs/ammathan_kanneeril.md",
-    "content/songs/amma_manassil.md",
-    "docs/android-chrome-192x192.png",
-    "docs/favicon-32x32.png",
-    "docs/apple-touch-icon.png",
-    "docs/favicon-16x16.png"
+    "content/songs/maanusha_nee_lokamakhilam.md"
   ]
 }

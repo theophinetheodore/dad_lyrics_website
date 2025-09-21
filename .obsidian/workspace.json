@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8073ea267c20ad9e",
+        "id": "18d962c02ea78ea9",
         "type": "tabs",
         "children": [
           {
-            "id": "ca8b6d8304beda61",
+            "id": "c3ada04ea5550ccc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/songs/althara_orungi_akathaarorukki.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "althara_orungi_akathaarorukki"
+              "title": "New tab"
             }
           }
         ]
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,28 +162,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "ca8b6d8304beda61",
+  "active": "c3ada04ea5550ccc",
   "lastOpenFiles": [
     "docs/pagefind/fragment/ml-in_e8f2c5f.pf_fragment",
-    "docs/pagefind/fragment/ml-in_c12b6dd.pf_fragment",
-    "docs/pagefind/fragment/ml-in_a485395.pf_fragment",
-    "docs/pagefind/fragment/ml-in_9174cd7.pf_fragment",
+    "docs/pagefind/fragment/ml-in_c891f9d.pf_fragment",
+    "docs/pagefind/fragment/ml-in_85eca3b.pf_fragment",
     "docs/pagefind/fragment/ml-in_84a7b41.pf_fragment",
     "docs/pagefind/fragment/ml-in_77cc6df.pf_fragment",
     "docs/pagefind/fragment/ml-in_733bf3c.pf_fragment",
-    "docs/pagefind/fragment/ml-in_6bfe96c.pf_fragment",
-    "docs/pagefind/fragment/ml-in_4b9865b.pf_fragment",
+    "docs/pagefind/fragment/ml-in_4561a73.pf_fragment",
     "docs/pagefind/fragment",
     "docs/pagefind",
+    "docs/tags/page/1/index.html",
+    "docs/tags/page/1",
     "docs/android-chrome-192x192.png",
     "docs/favicon-32x32.png",
     "docs/apple-touch-icon.png",
     "docs/favicon-16x16.png",
-    "content/songs/aadyathe_sakraari.md",
+    "content/songs/kristuvin_kaalvari_kaazhcha.md",
+    "content/songs/dhanyamaam_ee_vedhiyil.md",
+    "content/songs/divyakarunyathil_yeshuvum_njanum.md",
+    "content/songs/aalayamaninaadam_kettu.md",
+    "content/songs/amma_manassil.md",
+    "content/songs/ammathan_kanneeril.md",
     "content/songs/althara_orungi_akathaarorukki.md",
+    "content/songs/aadyathe_sakraari.md",
     "content/songs/akhila.md",
     "content/songs/ambike_naadhe_kanyake.md",
-    "content/songs/amma_manassil.md",
     "content/songs/amme_sneha_naadhe.md",
     "content/songs/anantha_snehathin.md",
     "content/songs/appamaayi_innee_altharayil.md",
@@ -203,11 +203,6 @@
     "content/songs/aakashadhoothar.md",
     "content/songs/nin_divya_paathanthikathil.md",
     "content/songs/daivaraajyam_samaagathamaayi_orunguvin.md",
-    "content/songs/kopamaarnnoru_nayanamode.md",
-    "content/songs/karuna_niranja_pithaave_nee.md",
-    "content/songs/en_paapavazhiyorth_njaninn.md",
-    "content/songs/ennamerum_paapathaal.md",
-    "content/songs/aadhiyilaakaruthe.md",
-    "content/songs/maanusha_nee_lokamakhilam.md"
+    "content/songs/kopamaarnnoru_nayanamode.md"
   ]
 }

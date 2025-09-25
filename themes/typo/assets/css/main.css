@@ -606,10 +606,15 @@ table {
   border-radius: var(--code-border-radius);
 }
 
+table tbody {
+  border: 1px solid var(--code-border);
+}
+
 th,
 td {
   padding: var(--table-cell-padding);
   text-align: left;
+  border: 1px solid var(--code-border);
 }
 
 th {

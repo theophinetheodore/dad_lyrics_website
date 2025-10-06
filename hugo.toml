@@ -29,10 +29,6 @@ home = "Home"
 
 # Main menu pages
 [[params.menu]]
-name = "ഗാനങ്ങൾ"
-url = "/"
-
-[[params.menu]]
 name = "എന്നെപ്പറ്റി"
 url = "/about"
 

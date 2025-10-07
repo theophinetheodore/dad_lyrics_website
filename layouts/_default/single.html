@@ -70,13 +70,19 @@
     
     {{- /* Page content */}}
 
-    {{ if .Param "scale" }}
     <blockquote style="border: 1px solid; border-radius: 0.5rem;">
-      <p>Scale: {{ .Params.scale }}</p>
-      <p>Time Signature: {{ .Params.time_signature }}</p>
-      <p>Tempo: {{ .Params.tempo }}</p>
+      {{ if .Param "scale" }}
+        <p>Scale: {{ .Params.scale }}</p>
+      {{ end }}
+
+      {{ if .Param "time_signature"}}
+        <p>Time Signature: {{ .Params.time_signature }}</p>
+      {{ end }}
+
+      {{ if .Param "tempo"}}
+        <p>Tempo: {{ .Params.tempo }}</p>
+      {{ end }}
     </blockquote>
-    {{ end }}
 
     {{ if .Param "notation"}}
       <div class="table-content" id="table-content">

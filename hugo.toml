@@ -14,7 +14,8 @@ description = "Songs"
 theme = 'dark'
 colorPalette = 'base16-default'
 hideHeader = false
-showFooter = false
+showFooter = true
+hideBackToTop = true
 
 # Lists parameters
 paginationSize = 100

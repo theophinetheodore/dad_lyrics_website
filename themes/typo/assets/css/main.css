@@ -212,15 +212,14 @@ hr {
 footer {
   font-size: small;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: var(--footer-height);
-}
-
-footer a {
-  font-family: var(--font-mono);
-  margin-left: .2rem;
-  margin-right: .2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid var(--code-border);
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* Posts list  */

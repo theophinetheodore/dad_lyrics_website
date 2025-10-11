@@ -4,10 +4,16 @@
     {{ partial "functions/get_hook.html" (dict "hook" "footer_start" "context" .) }}
 
     {{ if not .Site.Params.footerContent }}
-    <p>Powered by
-        <a href="https://gohugo.io/">Hugo</a>
-        and
-        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    <p style="text-align: center;">
+        നിർമ്മിച്ചത്:<br>
+        <a target="_blank" rel="noopener noreferrer" href="https://theophinetheodore.xyz">തിയോഫിൻ സാവിയോ തിയഡോർ</a>
+    </p>
+
+    <p>
+        <a target="_blank" rel="noopener noreferrer"
+        href="https://github.com/theophinetheodore/songs">
+            പൂർണ്ണമായും സ്വതന്ത്ര സോഫ്റ്റ്‍വെയർ
+        </a>
     </p>
     {{ end }}
     

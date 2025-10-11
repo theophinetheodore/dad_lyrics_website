@@ -3,3 +3,19 @@
 .hidden {
   display: none;
 }
+
+#notation-container {
+  width: 100%;
+  border: 1px solid var(--code-border);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#notation-divider {
+  margin: 0.5rem 0;
+  background-color: var(--code-border) !important;
+}
+
+#notation-container #notation-divider:last-child {
+  display: none;
+}

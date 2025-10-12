@@ -2,6 +2,7 @@
 title: "നാദസ്വരങ്ങളേ ഒന്നാകൂ നാഥന്റെ"
 tags:
     - "സങ്കീർത്തനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=CbJnzhkjCM8"
 ---
 
 സങ്കീർത്തനം 145

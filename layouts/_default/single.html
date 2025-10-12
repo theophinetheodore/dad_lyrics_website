@@ -84,6 +84,10 @@
     {{ end }}
   </div>
 
+  {{ if .Param "video" }}
+  <iframe id="preview" src={{ replace .Params.video "watch?v=" "embed/" }} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  {{ end }}
+
     {{ if .Param "notation"}}
       <div class="notation-container" id="notation-container">
       </div>

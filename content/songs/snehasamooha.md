@@ -6,6 +6,7 @@ params:
     scale: D
     time_signature: 2/4
     tempo: 93
+video: "https://www.youtube.com/watch?v=WeBUUU1pYK4"
 ---
 
 സ്നേഹസമൂഹ യാഗവേദിയിൽ

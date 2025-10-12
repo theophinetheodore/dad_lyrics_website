@@ -2,6 +2,7 @@
 title: "ആശ്രിതവൽസല മംഗള ദായകാ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=Hk0g6fQPt18"
 ---
 
 ആശ്രിതവൽസല മംഗള ദായകാ

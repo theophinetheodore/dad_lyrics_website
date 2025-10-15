@@ -2,6 +2,7 @@
 title: "ഉരുകി ഉരുകി തീർന്നിടാം"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=rAd-6aYj9Mc"
 ---
 
 ഉരുകി ഉരുകി തീർന്നിടാം

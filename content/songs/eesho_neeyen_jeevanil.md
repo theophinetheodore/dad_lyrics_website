@@ -2,6 +2,7 @@
 title: "ഈശോ നീയെൻ ജീവനിൽ നിറയേണം"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=ON99ICjJGsw"
 ---
 
 ഈശോ നീയെൻ ജീവനിൽ നിറയേണം

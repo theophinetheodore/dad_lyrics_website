@@ -2,6 +2,7 @@
 title: "ആത്മാവിൻ സ്വർഗ്ഗീയ ഭോജനമേ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=mN7RB-eDHow"
 ---
 
 ആത്മാവിൻ സ്വർഗ്ഗീയ ഭോജനമേ

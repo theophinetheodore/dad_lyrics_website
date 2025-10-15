@@ -7,10 +7,12 @@ params:
     scale: 
     time_signature: 3/4
     tempo: 
+video: "https://www.youtube.com/watch?v=1p8986w94aU"
 ---
 ~ വിരുത്തം ~
 അങ്ങേ തിരുമുറിവുകളിൽ എന്നെ മറക്കേണമേ
 അങ്ങേ തിരുഹൃദയത്തിൽ എന്നെ ഇരുത്തേണമേ
+.
 ~ Start 15 Bar ~
 M/F
 അങ്ങേ തിരുമുറിവുകളിൽ എന്നെ മറക്കേണമേ

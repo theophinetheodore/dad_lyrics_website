@@ -2,6 +2,7 @@
 title: "അപ്പമായി ഇന്നീ അൾത്താരയിൽ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=W2mgOdsjCEk"
 ---
 
 അപ്പമായി ഇന്നീ അൾത്താരയിൽ

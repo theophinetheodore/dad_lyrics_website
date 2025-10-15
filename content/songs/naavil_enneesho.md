@@ -2,6 +2,7 @@
 title: "നാവിൽ എൻ ഈശോ തൻ നാമം"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=tnly3r3upZs"
 ---
 
 നാവിൽ എൻ ഈശോ തൻ നാമം

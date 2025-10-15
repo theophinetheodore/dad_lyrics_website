@@ -2,6 +2,7 @@
 title: "ആബാ ദൈവമേ അലിയും സ്നേഹമേ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=4AGepaZPDW4"
 ---
 
 ആബാ ദൈവമേ അലിയും സ്നേഹമേ

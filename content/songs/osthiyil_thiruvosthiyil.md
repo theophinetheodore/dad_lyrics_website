@@ -2,6 +2,7 @@
 title: "ഓസ്തിയിൽ തിരുവോസ്തിയിൽ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=FblieklN1lg"
 ---
 
 ഓസ്തിയിൽ തിരുവോസ്തിയിൽ നിറയും ദൈവകാരുണ്യം

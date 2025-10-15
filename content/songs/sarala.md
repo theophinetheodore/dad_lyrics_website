@@ -7,7 +7,7 @@ params:
     scale: G
     time_signature: 6/8
     tempo: 93
-video: "https://www.youtube.com/watch?v=UNWSoe05E2M"
+video: "https://www.youtube.com/watch?v=1Jsxndj4Vkc"
 ---
 
 ~ Start 7 Bar ~

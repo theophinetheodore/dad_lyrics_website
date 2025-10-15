@@ -2,6 +2,7 @@
 title: "അപ്പത്തിൻ രൂപത്തിൽ എന്നിൽ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=Za10V7KOr_Y"
 ---
 
 അപ്പത്തിൻ രൂപത്തിൽ എന്നിൽ 

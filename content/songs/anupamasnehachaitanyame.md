@@ -2,6 +2,7 @@
 title: "അനുപമസ്നേഹചൈതന്യമേ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=va6DZj62iAg"
 ---
 
 അനുപമസ്നേഹചൈതന്യമേ

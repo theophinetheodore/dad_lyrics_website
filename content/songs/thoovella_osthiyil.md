@@ -2,6 +2,7 @@
 title: "തൂവെള്ള ഓസ്തിയിൽ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=PsfgsgiXr_o"
 ---
 
 തൂവെള്ള ഓസ്തിയിൽ വാഴുമെന്റെ ദൈവമേ

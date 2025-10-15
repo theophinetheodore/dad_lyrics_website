@@ -2,6 +2,7 @@
 title: "ഓ എൻ യേശുവേ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=k9vJXgNn_s0"
 ---
 
 ഓ എൻ യേശുവേ

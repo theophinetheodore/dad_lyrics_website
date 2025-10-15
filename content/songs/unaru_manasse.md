@@ -2,6 +2,7 @@
 title: "ഉണരൂ മനസ്സേ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=OSCWwfAjnU8"
 ---
 
 ഉണരൂ മനസ്സേ, പകരൂ ഗാനാമൃതം

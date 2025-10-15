@@ -7,6 +7,7 @@ params:
     scale: Dm
     time_signature: 2/4
     tempo: 82
+video: "https://www.youtube.com/watch?v=yfgEbQkO_Vo"
 ---
 
 ~ Start 9 Bar ~

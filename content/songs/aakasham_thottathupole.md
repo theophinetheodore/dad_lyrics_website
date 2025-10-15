@@ -2,6 +2,7 @@
 title: "ആകാശം തൊട്ടതുപോലെ"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=d0QV_0zBHG8"
 ---
 
 ആകാശം തൊട്ടതുപോലെ

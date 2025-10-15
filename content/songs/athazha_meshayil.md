@@ -7,6 +7,7 @@ params:
     scale: E
     time_signature: 2/4
     tempo: 85
+video: "https://www.youtube.com/watch?v=va6DZj62iAg"
 ---
 
 ~ Start 3 Bar Hum + 9 Bar ~

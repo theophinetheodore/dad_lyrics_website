@@ -2,6 +2,7 @@
 title: "ആത്മാവിൽ ഒരു പള്ളിയുണ്ട്"
 tags:
     - "ദിവ്യഭോജനഗാനങ്ങൾ"
+video: "https://www.youtube.com/watch?v=1jZMguZbc0A"
 ---
 
 ആത്മാവിൽ ഒരു പള്ളിയുണ്ട്

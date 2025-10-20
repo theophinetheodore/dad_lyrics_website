@@ -201,6 +201,7 @@ hr {
   margin-bottom: 0;
   margin-top: 0;
   text-decoration: none;
+  line-height: 2rem;
 }
 
 .header-title a {

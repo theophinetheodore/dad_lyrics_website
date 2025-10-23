@@ -30,7 +30,7 @@ home = "Home"
 
 # Main menu pages
 [[params.menu]]
-name = "എന്നെപ്പറ്റി"
+name = "വെബ്സൈറ്റിനെക്കുറിച്ച്"
 url = "/about"
 
 [markup]

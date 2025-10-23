@@ -8,6 +8,34 @@
 
 <div {{ if .Param "autonumber" }} class="autonumber" {{ end }}>
   <article data-pagefind-body>
+
+  {{ if .Param "notation"}}
+   <table>
+      <tr><th colspan="2" style="text-align: center; font-size: 1.5rem;">സൂചിക</th></tr>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>പുരുഷന്മാർ ആലപിക്കുന്നു</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td>സ്ത്രീകൾ ആലപിക്കുന്നു</td>
+      </tr>
+      <tr>
+        <td>M/F</td>
+        <td>പുരുഷന്മാർക്കു ശേഷം സ്ത്രീകൾ ആലപിക്കുന്നു</td>
+      </tr>
+      <tr>
+        <td>F/M</td>
+        <td>സ്ത്രീകൾക്കു ശേഷം പുരുഷന്മാർ ആലപിക്കുന്നു</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>ഇരുകൂട്ടരും ചേർന്ന് ആലപിക്കുന്നു</td>
+      </tr>
+    </table>
+    {{ end }}
+
     <header class="single-intro-container">
         {{- /* Title and Summary */}}
         

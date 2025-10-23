@@ -179,11 +179,11 @@ hr {
 
 .header {
   padding-top: var(--header-top-gap);
-  margin-bottom: var(--header-bottom-gap);
+  /* margin-bottom: var(--header-bottom-gap); */
 }
 
 .header p {
-  font-size: small;
+  /* font-size: small; */
   /* font-family: var(--font-mono); */
   margin-top: 0;
   margin-right: var(--header-menu-side-gap);

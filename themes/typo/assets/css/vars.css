@@ -65,12 +65,6 @@
   --table-margin-bottom: 2rem;
 
   /* pagefind related stuff */
-  --pagefind-ui-scale: 1;
-  --pagefind-ui-primary: #ffffff !important;
-  --pagefind-ui-text: #ffffff !important;
-  --pagefind-ui-background: #393939 !important;
-  --pagefind-ui-border: #393939 !important;
-  --pagefind-ui-tag: #eeeeee;
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
@@ -78,17 +72,24 @@
   --pagefind-ui-font: "Malini" !important;
 }
 
+body.dark {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: #ffffff !important;
+  --pagefind-ui-text: #ffffff !important;
+  --pagefind-ui-background: #393939 !important;
+  --pagefind-ui-border: #393939 !important;
+  --pagefind-ui-tag: #eeeeee;
+}
+
 @media screen and (max-width: 1024px) {
   :root {
     --main-width: 750px;
-    --header-top-gap: 1rem;
     --caption-padding: calc(.25 * var(--main-padding));
   }
 }
 
 @media screen and (max-width: 640px) {
   :root {
-    --header-top-gap: 1rem;
     --social-icons-bottom-margin: 0rem;
     --caption-padding: calc(2 * var(--main-padding));
   }

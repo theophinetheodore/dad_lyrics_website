@@ -11,7 +11,7 @@ tag = 'tags'
 [params]
 description = "Songs"
 
-theme = 'dark'
+theme = 'auto'
 colorPalette = 'base16-default'
 hideHeader = false
 showFooter = true

@@ -28,3 +28,12 @@ iframe#preview {
   top: 1rem;
   margin-bottom: 2rem;
 }
+
+.pagefind-ui__result-link {
+  text-decoration: underline !important;
+  color: blue !important;
+}
+body.dark .pagefind-ui__result-link {
+  text-decoration: underline !important;
+  color: dodgerblue !important;
+}

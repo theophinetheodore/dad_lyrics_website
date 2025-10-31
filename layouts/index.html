@@ -2,13 +2,13 @@
 
 <div class="list-container">
   {{ $songs := where .Site.RegularPages "Section" "songs" }}
-  <img src="/logo.webp" style="width: 50%; height: 50%; margin: 0 auto;">
-  <div style="font-size: 1rem;">
-  <p>ക്രിസ്തീയ ഭക്തിഗാന വരികളുടെ ശേഖരം.
-  <br>വർഷങ്ങളായി ചെയ്യാൻ ആഗ്രഹിച്ച ഒരു സംരംഭം.
-  <br>ഈ വെബ്സൈറ്റിനെക്കുറിച്ച് കൂടുതൽ വായിക്കാൻ <a href="/about">ഈ ലിങ്കിൽ ക്ലിക് ചെയ്യുക.</a>
+  <img src="/logo.webp" style="width: 300px; margin: 1.5rem auto;">
+
+  <div style="text-align: center;">
+    <a class="header-title" href="http://localhost:1313/">ബാബുവിന്റെ ഗാനശേഖരം.</a>
+    <p>ആകെയുള്ള പാട്ടുകളുടെ എണ്ണം: <b>{{ len $songs }}</b></p>
+    <p>ഈ വെബ്സൈറ്റിനെക്കുറിച്ച് കൂടുതൽ വായിക്കാൻ <a href="/about">ഈ ലിങ്കിൽ ക്ലിക് ചെയ്യുക.</a>
   </p>
-  <p>നിങ്ങളുടേയും ഗാനങ്ങൾ ഇതിൽ ഉൾപ്പെടുത്തണമെന്നുണ്ടെങ്കിൽ അവ എനിക്ക് WhatsApp വഴി അയയ്ക്കുക. എന്റെ WhatsApp നമ്പർ: <a href="tel:+918907712511">8907712511</a>.</p>
   </div>
 
   <hr style="background-color: var(--code-border)">
@@ -37,16 +37,27 @@
       });
   </script>
 
-  <p style="margin: 2rem 0;">ആകെയുള്ള പാട്ടുകളുടെ എണ്ണം: <b>{{ len $songs }}</b></p>
+  <div id="tags" style="margin-top: 2rem; display: flex; flex-flow: row wrap; gap: 0.4rem;">
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <a style="text-decoration: none; background-color: var(--code-background); padding: 0.2rem 0.7rem; font-weight: bold; border-radius: 0.1rem;" href="#{{ $name }}">{{ $name }}</a>
+        {{ end }}
+    {{ end }}
+  </div>
+
 
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-      <h3>{{ $name }} ({{ len $taxonomy }})</h3>
+      <h3 style="cursor: pointer;" id="{{ $name }}" onClick='document.getElementById("tags").scrollIntoView({ behavior: "smooth" });'>
+        {{ $name }} ({{ len $taxonomy }})
 
-      <ol style="margin: 1rem 0;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="var(--content-secondary)" d="M10.59 13.41c.41.39.41 1.03 0 1.42c-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0a5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.98 2.98 0 0 0 0-4.24a2.98 2.98 0 0 0-4.24 0l-3.53 3.53a2.98 2.98 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0a5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.98 2.98 0 0 0 0 4.24a2.98 2.98 0 0 0 4.24 0l3.53-3.53a2.98 2.98 0 0 0 0-4.24a.973.973 0 0 1 0-1.42"/></svg>
+      </h3>
+
+      <ul style="margin: 1rem 0;">
         {{ range $taxonomy }}
           <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{ end}}
-      </ol>
+      </ul>
     {{ end }}
 </div>
 {{ end }}

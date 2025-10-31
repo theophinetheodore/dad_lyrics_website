@@ -1,8 +1,6 @@
 /* Place custom css here */
 
-.hidden {
-  display: none;
-}
+.hidden { display: none; }
 
 #notation-container {
   width: 100%;
@@ -37,3 +35,8 @@ body.dark .pagefind-ui__result-link {
   text-decoration: underline !important;
   color: dodgerblue !important;
 }
+
+#tags a { transition: all 0.5s; }
+#tags a:hover { transform: scale(110%); }
+
+.pagefind-ui__search-input { text-align: center !important; }

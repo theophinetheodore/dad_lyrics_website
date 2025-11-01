@@ -1,13 +1,11 @@
 {{ define "main" }}
 
 <div class="list-container">
-  {{ $songs := where .Site.RegularPages "Section" "songs" }}
   <img src="/logo.webp" style="width: 300px; margin: 1.5rem auto;">
 
   <div style="text-align: center;">
     <a class="header-title" href="http://localhost:1313/">ബാബുവിന്റെ ഗാനശേഖരം.</a>
-    <p>ആകെയുള്ള പാട്ടുകളുടെ എണ്ണം: <b>{{ len $songs }}</b></p>
-    <p>ഈ വെബ്സൈറ്റിനെക്കുറിച്ച് കൂടുതൽ വായിക്കാൻ <a href="/about">ഈ ലിങ്കിൽ ക്ലിക് ചെയ്യുക.</a>
+    <p>ഈ വെബ്സൈറ്റിനെപ്പറ്റി കൂടുതലറിയാൻ <a href="/about">ഈ ലിങ്കിൽ ക്ലിക് ചെയ്യുക.</a>
   </p>
   </div>
 
@@ -23,7 +21,8 @@
           showSubResults: false,
           showImages: false,
           translations: {
-            placeholder: "ഗാനങ്ങൾ തിരയുക",
+  {{ $songs := where .Site.RegularPages "Section" "songs" }}
+            placeholder: "{{ len $songs}} ഗാനങ്ങളിൽ നിന്ന് തിരയുക",
             zero_results: '"[SEARCH_TERM]" കണ്ടെത്താനായില്ല.',
             load_more: "കൂടുതൽ ഫലങ്ങൾ ലോഡ് ചെയ്യുക",
             clear_search: "മായ്‍ക്കുക",

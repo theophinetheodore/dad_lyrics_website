@@ -36,7 +36,47 @@ body.dark .pagefind-ui__result-link {
   color: dodgerblue !important;
 }
 
-#tags a { transition: all 0.5s; }
-#tags a:hover { transform: scale(110%); }
+#tags a, button#tag { transition: all 0.5s; }
+#tags a:hover, button#tag:hover { transform: scale(110%); }
 
 .pagefind-ui__search-input { text-align: center !important; }
+
+a {
+  color: #1a0dab;
+}
+
+button#tag {
+  background: linear-gradient(to bottom, var(--code-background), var(--code-border));
+  border: 2px solid lightgray;
+  color: inherit;
+  padding: 0.1rem 0.7rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    background: linear-gradient(to bottom, var(--code-background), var(--code-border));
+    border: 2px solid lightgray;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%) translateY(20px); /* Start below */
+    transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease;
+    opacity: 0;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0px); /* Move to center */
+}

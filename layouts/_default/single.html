@@ -12,7 +12,7 @@
   {{ if .Param "notation"}}
    <table>
       <tr><th colspan="2" style="text-align: center; font-size: 1.5rem;">സൂചിക</th></tr>
-      </tr>
+
       <tr>
         <td>M</td>
         <td>പുരുഷന്മാർ ആലപിക്കുന്നു</td>
@@ -72,20 +72,23 @@
         
     </header>
     
-    {{- if .Param "showTags" }}
       {{- $taxonomy := "tags" }}
       {{- with .Param $taxonomy }}    
-        <div class="single-tags">
+        <div class="single-tags"
+        style="margin: 1rem 0; display: flex; justify-content: space-between; align-items: center;">
+          <div class="tags-inner">
             {{- range $index, $tag := . }}
-            {{- with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
-                <span>
-                  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-                </span>
+              {{- with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+                  <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+              {{- end }}
             {{- end }}
-            {{- end }}
+          </div>
+
+          <button id="tag" onClick="shareLink()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M17 22q-1.25 0-2.125-.875T14 19q0-.15.075-.7L7.05 14.2q-.4.375-.925.588T5 15q-1.25 0-2.125-.875T2 12t.875-2.125T5 9q.6 0 1.125.213t.925.587l7.025-4.1q-.05-.175-.062-.337T14 5q0-1.25.875-2.125T17 2t2.125.875T20 5t-.875 2.125T17 8q-.6 0-1.125-.213T14.95 7.2l-7.025 4.1q.05.175.063.338T8 12t-.012.363t-.063.337l7.025 4.1q.4-.375.925-.587T17 16q1.25 0 2.125.875T20 19t-.875 2.125T17 22"/></svg>
+          പങ്കുവയ്ക്കുക</button>
         </div>
       {{- end }}
-    {{- end }}
     
     {{- /* Table of Contents */}}
     
@@ -98,7 +101,7 @@
     
     {{- /* Page content */}}
 
-  <div id="details" style="display: flex; flex-direction: column; margin-bottom: 2rem;">
+  <div id="details" style="display: flex; flex-direction: column; margin: 1.5rem 0;">
     {{ if .Param "scale" }}
       <span><b>Scale</b>: {{ .Params.scale }}</span>
     {{ end }}
@@ -124,7 +127,7 @@
     {{ if .Param "notation"}}
       <div class="single-content hidden" id="single-content">
     {{ else }}
-      <div class="single-content" id="single-content">
+      <div class="single-content" style="margin-top: -1rem;" id="single-content">
     {{ end }}
       {{ .Content }}
     </div>
@@ -171,6 +174,42 @@
     <script defer src="/tabular_view.js"></script>
   {{ end }}
 
+  <script>
+    function showToast() {
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => {
+          toast.classList.remove('show');
+      }, 3000);
+    }
+
+    async function shareLink() {
+      const url = window.location.href;
+
+      if (navigator.share) {
+          try {
+              await navigator.share({
+                  title: document.title,
+                  url: url
+              });
+              console.log('Shared successfully');
+          } catch (error) {
+              console.error('Error sharing:', error);
+          }
+      } else {
+          try {
+              await navigator.clipboard.writeText(url);
+              console.log('Copied to clipboard:', url);
+              showToast();
+          } catch (error) {
+              console.error('Error copying to clipboard:', error);
+          }
+      }
+    }
+  </script>
+
 </div>
+
+<div class="toast" id="toast">ലിങ്ക് കോപ്പി ചെയ്യപ്പെട്ടു!</div>
 
 {{ end }}

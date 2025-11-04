@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://songs.theophinetheodore.xyz/'
 languageCode = 'ml-in'
 title = "ബാബുവിന്റെ ഗാനശേഖരം."
 theme = 'typo'
@@ -11,7 +11,7 @@ tag = 'tags'
 [params]
 description = "Songs"
 
-theme = 'auto'
+theme = 'light'
 colorPalette = 'base16-default'
 hideHeader = false
 showFooter = true

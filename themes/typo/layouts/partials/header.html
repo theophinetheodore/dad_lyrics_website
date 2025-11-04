@@ -5,7 +5,9 @@
 
     {{ if or (not (.Param "hideHeader")) .IsHome }}
 
-    <a class="header-title" href="{{ site.BaseURL }}">{{ site.Title }}</a>
+    <a href="/" style="text-decoration: none; color: var(--color-primary);">
+        <h2 class="header-title" href="{{ site.BaseURL }}">{{ site.Title }}</h2>
+    </a>
 
     {{ end }}
 
